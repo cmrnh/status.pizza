@@ -8,7 +8,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/:statuscode([0-9]{3})', function(req, res, next) {
-	response.send('Hello ' + req.params.statuscode);
+	res.send('Hello ' + req.params.statuscode);
 });
 
 app.listen(app.get('port'), function() {
