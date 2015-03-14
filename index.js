@@ -9,7 +9,7 @@ app.set('view engine', 'jade');
 
 app.get('/:statusCode([0-9]{3})', function(req, res, next) {
 	var statusCode = req.params.statusCode;
-	res.status(parseInt(statusCode)).send('Hello ' + statusCode);
+	res.status(200).send('Hello ' + statusCode);
 });
 
 app.listen(app.get('port'), function() {
