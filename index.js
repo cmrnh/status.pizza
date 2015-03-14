@@ -16,7 +16,7 @@ app.get('/', function(req,res,next) {
 	req.params = { 
 		statusCode: keys[random]
 	};
-	routes.status.send();
+	routes.status.send(req,res,next);
 });
 
 app.get('/:statusCode([0-9]{3})', routes.status.send);
@@ -25,7 +25,7 @@ app.get('*', function(req,res,next) {
 	req.params = { 
 		statusCode: "404"
 	};
-	routes.status.send();
+	routes.status.send(req,res,next);
 });
 
 app.listen(app.get('port'), function() {
