@@ -7,8 +7,9 @@ app.use(express.static(__dirname + '/public'))
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
-app.get('/:statuscode([0-9]{3})', function(req, res, next) {
-	res.send('Hello ' + req.params.statuscode);
+app.get('/:statusCode([0-9]{3})', function(req, res, next) {
+	var statusCode = req.params.statusCode;
+	res.status(parseInt(statusCode)).send('Hello ' + statusCode);
 });
 
 app.listen(app.get('port'), function() {
