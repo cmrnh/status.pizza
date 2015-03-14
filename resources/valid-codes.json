@@ -113,5 +113,10 @@
 		"image": "images/404.gif",
 		"title": "404 Not Found",
 		"description": "Not Found"
+	},
+	"314": {
+		"image": "images/314.gif",
+		"title": "314 Well Rounded",
+		"description": "Well Rounded"
 	}
 }
