@@ -1,5 +1,6 @@
-var express = require('express')
+var express = require('express');
 var routes 	= require('./routes');
+var jade = require('jade');
 var app			= express();
 
 app.set('port', (process.env.PORT || 5000))

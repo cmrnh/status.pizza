@@ -1,11 +1,16 @@
 {
+	"100": {
+		"image": "images/100.gif",
+		"title": "100 Continue",
+		"description": "Continue"
+	},
 	"200": {
-		"image": "200.gif",
+		"image": "images/200.gif",
 		"title": "200 OK",
 		"description": "OK"
 	},
 	"404": {
-		"image": "404.gif",
+		"image": "images/404.gif",
 		"title": "404 Not Found",
 		"description": "Not Found"
 	}
