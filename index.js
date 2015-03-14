@@ -13,14 +13,18 @@ app.set('view engine', 'jade');
 app.get('/', function(req,res,next) {
 	var keys = Object.keys(validCodes);
 	var random = Math.floor((Math.random() * keys.length - 1));
-	req.params.statusCode = keys[random];
+	req.params = { 
+		statusCode: keys[random]
+	};
 	routes.status.send();
 });
 
 app.get('/:statusCode([0-9]{3})', routes.status.send);
 
 app.get('*', function(req,res,next) {
-	req.params.statusCode = "404";
+	req.params = { 
+		statusCode: "404"
+	};
 	routes.status.send();
 });
 
