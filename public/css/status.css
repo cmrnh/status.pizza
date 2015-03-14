@@ -1,4 +1,9 @@
 body {
 	font-family: Avenir;
 	text-align: center;
+	color: #1E2835;
+}
+
+a {
+	color: #575E68;
 }
