@@ -1,4 +1,4 @@
-var validCodes = require('./valid-codes.json');
+var validCodes = require('../resources/valid-codes.json');
 
 var send = function(req, res, next) {
 	var statusCode = req.params.statusCode;
