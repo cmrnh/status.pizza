@@ -1,7 +1,7 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-sample",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "name": "status.pizza",
+  "description": "A celebration of Pi Day and Hypertext Transfer Protocol response status codes. Inspired by HTTP Status Dogs.",
+  "repository": "https://github.com/cmrnh/status.pizza",
+  "logo": "",
   "keywords": ["node", "express", "static"]
 }
