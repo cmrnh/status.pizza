@@ -9,6 +9,66 @@
 		"title": "200 OK",
 		"description": "OK"
 	},
+	"201": {
+		"image": "images/201.gif",
+		"title": "200 Created",
+		"description": "Created"
+	},
+	"202": {
+		"image": "images/202.gif",
+		"title": "202 Accepted",
+		"description": "Accepted"
+	},
+	"300": {
+		"image": "images/300.gif",
+		"title": "300 Multiple Choices",
+		"description": "Multiple Choices"
+	},
+	"302": {
+		"image": "images/302.gif",
+		"title": "302 Found",
+		"description": "Found"
+	},
+	"303": {
+		"image": "images/303.gif",
+		"title": "303 See Other",
+		"description": "See Other"
+	},
+	"304": {
+		"image": "images/304.gif",
+		"title": "304 Not Modified",
+		"description": "Not Modified"
+	},
+	"400": {
+		"image": "images/400.gif",
+		"title": "400 Bad Request",
+		"description": "Bad Request"
+	},
+	"401": {
+		"image": "images/401.gif",
+		"title": "401 Unauthorized",
+		"description": "Unauthorized"
+	},
+	"403": {
+		"image": "images/403.gif",
+		"title": "403 Forbidden",
+		"description": "Forbidden"
+	},
+	"410": {
+		"image": "images/410.gif",
+		"title": "410 Gone",
+		"description": "Gone"
+	},
+	"413": {
+		"image": "images/413.gif",
+		"title": "413 Request Entity Too Large",
+		"description": "Request Entity Too Large"
+	},
+	"417": {
+		"image": "images/417.gif",
+		"title": "417 Expectation Failed",
+		"description": "Expectation Failed"
+	},
 	"404": {
 		"image": "images/404.gif",
 		"title": "404 Not Found",
