@@ -7,3 +7,13 @@ body {
 a {
 	color: #575E68;
 }
+
+img {
+	width: 60%;
+}
+
+@media (max-width: 640px) {
+ 	img {
+    width: 90%;
+  }
+}

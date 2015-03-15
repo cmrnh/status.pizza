@@ -1,6 +1,7 @@
 doctype html
 html(lang="en")
   head
+    meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="/css/status.css", type="text/css")
     title #{title}
     script(type="text/javascript").
@@ -9,6 +10,7 @@ html(lang="en")
   body
     h1 #{title}
     #container
-      img(src="/#{image}")
+      a(href="/")
+        img(src="/#{image}")
       p
         a(href="/") More Pizza
