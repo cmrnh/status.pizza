@@ -1,67 +1,54 @@
 {
 	"100": {
 		"image": "images/100.gif",
-		"title": "100 Continue",
 		"description": "Continue"
 	},
 	"200": {
 		"image": "images/200.gif",
-		"title": "200 OK",
 		"description": "OK"
 	},
 	"201": {
 		"image": "images/201.gif",
-		"title": "200 Created",
 		"description": "Created"
 	},
 	"202": {
 		"image": "images/202.gif",
-		"title": "202 Accepted",
 		"description": "Accepted"
 	},
 	"203": {
 		"image": "images/203.gif",
-		"title": "203 Non-Authoritative Information",
 		"description": "Non-Authoritative Information"
 	},
 	"204": {
 		"image": "images/204.gif",
-		"title": "204 No Content",
 		"description": "No Content"
 	},
 	"300": {
 		"image": "images/300.gif",
-		"title": "300 Multiple Choices",
 		"description": "Multiple Choices"
 	},
 	"301": {
 		"image": "images/301.gif",
-		"title": "301 Moved Permanently",
 		"description": "Moved Permanently"
 	},
 	"302": {
 		"image": "images/302.gif",
-		"title": "302 Found",
 		"description": "Found"
 	},
 	"303": {
 		"image": "images/303.gif",
-		"title": "303 See Other",
 		"description": "See Other"
 	},
 	"304": {
 		"image": "images/304.gif",
-		"title": "304 Not Modified",
 		"description": "Not Modified"
 	},
 	"400": {
 		"image": "images/400.gif",
-		"title": "400 Bad Request",
 		"description": "Bad Request"
 	},
 	"401": {
 		"image": "images/401.gif",
-		"title": "401 Unauthorized",
 		"description": "Unauthorized"
 	},
 	"403": {
@@ -71,52 +58,42 @@
 	},
 	"410": {
 		"image": "images/410.gif",
-		"title": "410 Gone",
 		"description": "Gone"
 	},
 	"413": {
 		"image": "images/413.gif",
-		"title": "413 Request Entity Too Large",
 		"description": "Request Entity Too Large"
 	},
 	"420": {
 		"image": "images/420.gif",
-		"title": "420 Enhance Your Calm",
 		"description": "Enhance Your Calm"
 	},
 	"405": {
 		"image": "images/405.gif",
-		"title": "405 Method Not Allowed",
 		"description": "Method Not Allowed"
 	},
 	"500": {
 		"image": "images/500.gif",
-		"title": "500 Internal Server Error",
 		"description": "Internal Server Error"
 	},
 	"501": {
 		"image": "images/501.gif",
-		"title": "501 Not Implemented",
 		"description": "Not Implemented"
 	},
 	"502": {
 		"image": "images/502.gif",
-		"title": "502 Bad Gateway",
 		"description": "Bad Gateway"
 	},
 	"508": {
 		"image": "images/508.gif",
-		"title": "508 Loop Detected",
 		"description": "Loop Detected"
 	},
 	"404": {
 		"image": "images/404.gif",
-		"title": "404 Not Found",
 		"description": "Not Found"
 	},
 	"314": {
 		"image": "images/314.gif",
-		"title": "314 Well Rounded",
 		"description": "Well Rounded"
 	}
 }
